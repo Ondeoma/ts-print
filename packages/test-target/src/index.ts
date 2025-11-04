@@ -1,8 +1,8 @@
-import { hello_sub } from "./sub/sub"
+import { hello_sub } from "./sub/sub";
 
 function main() {
-  console.log("Hello main!")
-  hello_sub()
+  console.log("Hello main!");
+  hello_sub();
 }
 
-main()
+main();

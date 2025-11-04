@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": "true",
   "scripts": {
-    "build": "tspc"
+    "build": "tspc",
+    "prettier": "prettier src --check",
+    "prettier:fix": "prettier src --write"
   },
   "devDependencies": {
     "ts-patch": "^3.3.0",

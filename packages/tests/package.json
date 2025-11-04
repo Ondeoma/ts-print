@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": "true",
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "prettier": "prettier src --check",
+    "prettier:fix": "prettier src --write"
+
   },
   "devDependencies": {
     "vitest": "^4.0.6"
