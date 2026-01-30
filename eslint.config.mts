@@ -5,7 +5,7 @@ import { defineConfig } from "eslint/config";
 
 export default defineConfig([
   {
-    ignores: ['**/dist/**', '**/transformed/**', 'node_modules/**',],
+    ignores: ['**/dist/**', '**/transformed/**', '**/printed/**', 'node_modules/**',],
   },
   {
     rules: {

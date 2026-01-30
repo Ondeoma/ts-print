@@ -4,7 +4,7 @@
   "workspaces": ["packages/*"],
   "scripts": {
     "build": "npm run build -w ts-print",
-    "test": "npm run build && npm run build -w test-target && npm run test -w tests",
+    "test": "npm run build && npm run build -w example && npm run test -w tests",
     "eslint": "eslint",
     "eslint:fix": "eslint --fix",
     "prettier": "npm run prettier --workspaces",

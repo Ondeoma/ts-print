@@ -68,10 +68,10 @@ function getSortedSources(
 
 describe("Printed Source Check", () => {
   test("AST of printed source should be identical to original one.", () => {
-    const projectRoot = "../test-target";
+    const projectRoot = "../example";
 
     const originalSources = getSortedSources(projectRoot, "src");
-    const printedSources = getSortedSources(projectRoot, "transformed");
+    const printedSources = getSortedSources(projectRoot, "example");
 
     const printer = ts.createPrinter({
       newLine: ts.NewLineKind.LineFeed,
