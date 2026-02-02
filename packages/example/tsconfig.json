@@ -27,7 +27,7 @@
 
     "plugins": [
       {
-        "transform": "ts-print",
+        "transform": "@ondeoma/ts-print",
         "inputDir": "src",
         "outputDir": "printed"
       }
