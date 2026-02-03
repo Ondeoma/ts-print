@@ -1,6 +1,6 @@
 {
   "name": "@ondeoma/ts-print",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Print source files as a transformer.",
   "main": "dist/index.js",
   "publishConfig": {
