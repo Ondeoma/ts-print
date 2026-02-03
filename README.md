@@ -10,7 +10,7 @@ This tool is primarily intended for debugging purposes, allowing you to inspect 
   "compilerOptions": {
     "plugins": [
       {
-        "transform": "ts-print",
+        "transform": "@ondeoma/ts-print",
         "inputDir": "src",
         "outputDir": "printed"
       }
