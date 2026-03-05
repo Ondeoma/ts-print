@@ -33,13 +33,7 @@
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
     "@types/node": "^25.3.3",
-    "eslint": "^10.0.2",
-    "globals": "^17.4.0",
-    "jiti": "^2.6.1",
-    "prettier": "^3.6.2",
-    "shx": "^0.4.0",
-    "typescript-eslint": "^8.56.1"
+    "shx": "^0.4.0"
   }
 }
