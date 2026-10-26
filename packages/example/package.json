@@ -8,7 +8,7 @@
     "prettier:fix": "prettier src --write"
   },
   "devDependencies": {
-    "ts-patch": "^3.3.0",
+    "ts-patch": "^4.0.1",
     "typescript": "^6.0.3",
     "@ondeoma/ts-print": "^0.0.3"
   }
