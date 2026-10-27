@@ -34,13 +34,11 @@ jobs:
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
-          publish: npm run release
-          commit: 'ci(changesets): version packages'
-          title: 'ci(changesets): version packages'
+          publish-script: npm run release
+          commit-message: 'ci(changesets): version packages'
+          pr-title: 'ci(changesets): version packages'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Still need npm_token for publish. Remove after release of https://github.com/changesets/action/pull/545 .
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
