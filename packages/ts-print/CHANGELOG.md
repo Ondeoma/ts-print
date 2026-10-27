@@ -1,5 +1,11 @@
 # @ondeoma/ts-print
 
+## 0.1.2
+
+### Patch Changes
+
+- a7cf19c: more secure release action
+
 ## 0.1.1
 
 ### Patch Changes
