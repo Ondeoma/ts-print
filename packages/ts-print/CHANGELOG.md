@@ -1,5 +1,11 @@
 # @ondeoma/ts-print
 
+## 0.1.1
+
+### Patch Changes
+
+- 8aca83b: update changeset release action
+
 ## 0.1.0
 
 ### Minor Changes
